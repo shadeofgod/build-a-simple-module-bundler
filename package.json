@@ -1,0 +1,25 @@
+{
+  "name": "build-a-simple-module-bundler",
+  "version": "1.0.0",
+  "description": "Understand how module bundler works by build a simple one.",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "node index.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadeofgod/build-a-simple-module-bundler.git"
+  },
+  "author": "shadeofgod <zoubingwu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadeofgod/build-a-simple-module-bundler/issues"
+  },
+  "homepage": "https://github.com/shadeofgod/build-a-simple-module-bundler#readme"
+}
